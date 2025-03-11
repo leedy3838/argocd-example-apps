@@ -14,7 +14,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: user11.azureecr.io/order:v1
+      - image: user11acr.azurecr.io/order:v1
         name: guestbook-ui
         ports:
         - containerPort: 80
